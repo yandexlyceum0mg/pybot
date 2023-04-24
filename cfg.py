@@ -1,0 +1,3 @@
+BOT_TOKEN = '6028527224:AAEIZs8GIQqXXsIs7l5RlMeeGP8XnGcjGHo'
+w_api_key = 'f89ed9a1-4a4c-4544-91f9-15dc7aad9ce6'
+g_api_key = '40d1649f-0493-4b70-98ba-98533de7710b'
