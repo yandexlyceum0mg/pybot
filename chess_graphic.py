@@ -123,7 +123,7 @@ class Play:
                         pass
                     else:
                         break
-                return f'img.{self.id}.png'
+                return f'tmp/img.{self.id}.png'
 
         board_output_func = BoardOutput()
         p(board_output_func, printfunc, printfunc2, input_string_func, input_string_func_2, *s.t)

@@ -130,12 +130,12 @@ class PlayXO:
                 s.b.render(s.img)
                 while True:
                     try:
-                        save(s.img, f'img.{self.id}.png')
+                        save(s.img, f'tmp/img.{self.id}.png')
                     except:
                         pass
                     else:
                         break
-                return f'img.{self.id}.png'
+                return f'tmp/img.{self.id}.png'
 
         board_output_func = BoardOutput()
         play(board_output_func, input_func, output_func, input_func2, output_func2)
